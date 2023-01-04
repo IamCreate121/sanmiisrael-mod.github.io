@@ -4,280 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dee's Estate</title>
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <div container>
-        <header></header>
-        <nav class="nav-section">
-            <ul>
-
-                <li><a href="index.html"><span class="img-span"><img src="img/Dee’s Estate.png" alt=""></span></a></li>
-                <span class="rest-span">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Rent</a></li>
-                    <li><a href="">Land</a></li>
-                    <li><a href="">Agent</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li id="only1"><a href=""><span class="text-span">Get Started</span></a></li>
-
-                    <!--Dropdown-menu-->
-                    <div class="dropdown">
-                        <div>More about us</div>
-                        <span  style="font-family: Webdings;">6</span>
-                        <div class="dropdown-content">
-                            <p>Arrange</p>
-                            <p>Hello world</p>
-                        </div>
-                    </div>
-                    
-                </span>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Teams</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-                      
-        </nav>
-        <br>
-        <br>
-        <hr>
-
-        <main>
-
-            <section class="banner">
-                <div class="banner-text">
-                    <div class="banner-heading">
-                        <h1>Helping you find the property of your dreams.</h1>
-                        <p>Creating quality urban lifestyles, building stronger communiuties</p>
-                    </div>
-                    <div class="a-link">
-                        <a href="" id="a-banner">Learn More</a>
-                    </div>
-                </div>
-                <div class="banner-img">
-                    <img src="img/Rectangle 2.png" alt="" id="img-banner">
-                </div>
-            </section>
-
-            <section class="searchAndothers">
-                <div class="the-search">
-                    <div class="s1">
-                            <select name="" id="location">
-                                <option value="Location">Location</option>
-                                <option value="Location">Lekki</option>                  
-                            </select>
-                            <p>Lekki</p>
-                    </div>
-                    <div class="s2">
-                            <select name="" id="property">
-                                <option value="Property">Property Type</option>
-                                <option value="Property">Duplex</option>                  
-                            </select>
-                            <p>Duplex</p>
-                    </div>
-                    <div class="s3">
-                        <select name="" id="max-price">
-                            <option value="Max-Price">Max Price</option>
-                            <option value="Max-Price">$10,000</option>                  
-                        </select>
-                        <p>$10,000</p>
-                    </div>                        
-                    <div class="s4">
-                        <a href="" id="a-search">Search</a>                        
-                    </div>
-                </div>
-            </section>
-
-            <section class="breakdown">
-                <div class="breakdown-heading">
-                    <h2>How it works.</h2>
-                    <p>This is how our products work.</p>
-                </div>
-                    <div class="breakdown-body">
-                        <div class="breakdown-inner">
-                            <div class="bd1">
-                                <div class="bd-img1">
-                                    <img src="img/address mark.png" alt="">
-                                </div>
-                                <div class="bd-body1">
-                                    <h2 id="h2-bd">Find Home</h2>
-                                    <p id="p-bd">Our properties are located at prime areas where by there won't be problem with transportation</p>
-                                </div>
-                            </div>
-                            <div class="bd2">
-                                <div class="bd-img2">
-                                    <img src="img/Smart house.png" alt="">
-                                </div>
-                                <div class="bd-body2">
-                                    <h2 id="h2-bd">Make Payments</h2>
-                                    <p id="p-bd">Our estates come with good network, portable water, 24hrs light and round the clock security.</p>
-                                </div>
-                            </div>
-                            <div class="bd3">
-                                <div class="bd-img3">
-                                    <img src="img/Secure data protection with fingerprint and lock.png" alt="">
-                                </div>
-                                <div class="bd-body3">
-                                <h2 id="h2-bd">Make it Official</h2>
-                                <p id="p-bd">We have been in business for over 32 years, for client outside the country you can trust to deliver well.</p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-
-            <section class="mvp">
-                <div class="img-mvp">
-                    <img src="img/Rectangle 3.png" alt="" id="image-mvp">
-                </div>
-                <div class="mvp-space">
-                    <div class="mvp-heading">
-                        <h3>Why you should choose us.</h3>
-                        <p>Creating quality urban lifestyles, building stronger communities</p>
-                    </div>
-                    <div class="mvp-body">
-                        <div class="body-item item-1">
-                            <img src="img/Vector.png" alt="">World class
-                        </div>
-                        <div class="body-item item-2">
-                            <img src="img/Vector.png" alt="">Affordable
-                        </div>
-                        <div class="body-item item-3">
-                            <img src="img/Vector.png" alt="">Trusted
-                        </div>
-                        <div class="body-item item-4">
-                            <img src="img/Vector.png" alt="">Amenities
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="products">
-                <div class="products-description">
-                    <h4>Our Featured Properties</h4>
-                    <p>One of the biggest product to be featured and that has sold out the most.</p>
-                    <span class="span-products">
-                        <a href="" id="a-products">View more</a>
-                    </span>
-                </div>
-                <div class="products-cycle">
-
-                    <div class="productimg-1">
-                        <div class="imginner1">
-                            <img src="img/Rectangle 4 (2).png" alt="" id="image-product">
-                        </div>
-                        <div class="inner-1">
-                            <div class="inner1-1">
-                                <h4 id="h4-inner">The Palace</h4>
-                                <p id="p-p">Lekki phase 2</p>
-                            </div>
-                            <div class="inner1-1">
-                                <p id="p-p">Duplex</p>
-                                <p id="p-pmoney">$2,000</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="productimg-2">
-                        <div class="imginner2">
-                            <img src="img/Rectangle 4 (1).png" alt="" id="image-product">
-                        </div>
-                        <div class="inner-2">
-                            <div class="inner2-2">
-                                <h4 id="h4-inner">IVY RORY</h4>
-                            <p id="p-p">Lekki phase 2</p>
-                            </div>
-                            <div class="inner2-2">
-                                <p id="p-p">Duplex</p>
-                                <p id="p-pmoney">$2,000</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="productimg-3">
-                        <div class="imginner3">
-                            <img src="img/Rectangle 4.png" alt="" id="image-product">
-                        </div>
-                        <div class="inner-3">
-                            <div class="inner3-3">
-                                <h4 id="h4-inner">REXONA</h4>
-                            <p id="p-p">Lekki phase 2</p>
-                            </div>
-                            <div class="inner3-3">
-                                <p id="p-p">Duplex</p>
-                                <p id="p-pmoney">$2,000</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="testimonials">
-                <div class="testimonial-heading">
-                    <h5>Testimonials</h5>
-                    <p>This is what our clients are saying.</p>
-                    <span class="span-products">
-                        <a href="" id="a-products">View more</a>
-                    </span>
-                </div>
-                <div class="testimonial-body">
-                    <div class="testimonial-1">
-                        
-                        <h5 id="h4-inner">Alex Godwin</h5>
-                            <p>South Africa</p>
-                            <div class="inner-2">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos eos a aut maiores officia quae autem sunt suscipit!</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-2">                     
-                            <h5 id="h4-inner">Alex Godwin</h5>
-                            <p>South Africa</p>
-                            <div class="inner-2">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos eos a aut maiores officia quae autem sunt suscipit!</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-3">                    
-                            <h5 id="h4-inner">Alex Godwin</h5>
-                            <p>South Africa</p>
-                                <div class="inner-2">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos eos a aut maiores officia quae autem sunt suscipit!</p>
-                                </div>                        
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer>
-            <div class="footer-nav">
-                <div class="fn-1">
-                    <h6 id="dee-h6">Dee's Estate</h6>
-                    <p>Solution for easy and flexible house hunting. You can trust us anywhere through this platform</p>
-                </div>
-                <div class="fn-1">
-                    <h6>Property</h6>
-                    <p><a href=""> Modules</a></p>
-                    <p><a href=""> Partnership</a></p>
-                    <p><a href=""> Watch demo</a></p>
-                    <p><a href=""> Event</a></p>
-                </div>
-                <div class="fn-1">
-                    <h6>About</h6>
-                    <p><a href=""> Our Company</a></p>
-                    <p><a href=""> Career</a></p>
-                    <p><a href=""> Investors Relations</a></p>
-                    <p><a href=""> Social Impact</a></p>
-                </div>
-                <div class="fn-1">
-                    <h6>Resources</h6>
-                    <p><a href=""> Contact</a></p>
-                    <p><a href=""> Give feedback</a></p>
-                    <p><a href=""> System status</a></p>
-                    <p><a href=""> Privacy Policy</a></p>
-                </div>
-            </div>
-        </footer>
+        </div>
         
-    </div>
+    </nav>
+
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Sanmi Israel</div>
+                <div class="text-3">And I'm a <span>UI/UX Designer & developer</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Portfolio</h2>
+        <div class="portfolio-items items">
+            <div class="sec-1">
+                <img src="img/Web 1366 – 2.png" alt="" class="item">
+                <p>Food ordering app</p>
+                <img src="img/Group 18.png" alt="">
+                <p>Food Ordering Web app sign up screen</p>
+            </div>
+            <div class="sec-2">
+                <img src="img/Web 1366 – 2.png" alt="" class="item">
+                <p></p>
+                <img src="img/Sign up screen.png" alt="">
+                <p></p>
+                <img src="img/Profile Page.png" alt="">
+                <p></p>
+                <img src="img/Group 12.png" alt="">
+                <p></p>
+                <img src="img/iPhone X, XS, 11 Pro – 1.png" alt="">
+                <p></p>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+            <h5>All Rights Reserved 2023 &copy; </h5>
+            <h5>Sanmi Israel</h5>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
